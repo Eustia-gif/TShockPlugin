@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Economics.Core\n"
-"POT-Creation-Date: 2026-05-06 05:28:04+0000\n"
-"PO-Revision-Date: 2026-05-06 05:28:04+0000\n"
+"POT-Creation-Date: 2026-05-06 06:37:44+0000\n"
+"PO-Revision-Date: 2026-05-06 06:37:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgstr ""
 msgid "[兑换预览] {0} → {1}"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:151
+#: ../../Services/CurrencyService.cs:147
 #, csharp-format
 msgid "{0} 不足: 需要 {1}, 拥有 {2}"
 msgstr ""
@@ -216,7 +216,7 @@ msgstr ""
 msgid "不存在的货币类型 `{0}`"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:84
+#: ../../Services/CurrencyService.cs:83
 msgid "不能给自己转账"
 msgstr ""
 
@@ -225,7 +225,7 @@ msgstr ""
 msgid "世界名称: {0}"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:64
+#: ../../Services/CurrencyService.cs:63
 #, csharp-format
 msgid "余额不足: 需要 {0}, 拥有 {1}"
 msgstr ""
@@ -275,6 +275,11 @@ msgstr ""
 msgid "击杀怪物"
 msgstr ""
 
+#: ../../DB/CurrencyManager.cs:50
+#, csharp-format
+msgid "加载货币数据失败: {0}"
+msgstr ""
+
 #: ../../Command/BankCommand.cs:337
 msgid "在没有名字参数情况下，只能在游戏中使用此命令!"
 msgstr ""
@@ -284,7 +289,7 @@ msgstr ""
 msgid "在线人数: {0}/{1}"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:178
+#: ../../Services/CurrencyService.cs:175
 #, csharp-format
 msgid "增加 {0} 失败: {1}"
 msgstr ""
@@ -338,7 +343,7 @@ msgstr ""
 msgid "成功转账给 `{0}` {1} 个{2}"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:160
+#: ../../Services/CurrencyService.cs:156
 #, csharp-format
 msgid "扣除 {0} 失败: {1}"
 msgstr ""
@@ -356,6 +361,11 @@ msgstr ""
 msgid "提供经济系统API"
 msgstr ""
 
+#: ../../DB/CurrencyManager.cs:238
+#, csharp-format
+msgid "插入货币数据失败 [{0}, {1}]: {2}"
+msgstr ""
+
 #: ../../Command/BankCommand.cs:319
 msgid "数值必须大于0!"
 msgstr ""
@@ -365,16 +375,26 @@ msgstr ""
 msgid "无损循环: {0} (倍数: {1:F4}x)"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:146
+#: ../../DB/CurrencyManager.cs:249
+#, csharp-format
+msgid "无法更新货币数据：Id 无效 [{0}, {1}]"
+msgstr ""
+
+#: ../../Services/CurrencyService.cs:142
 #, csharp-format
 msgid "无法查询 {0} 余额"
+msgstr ""
+
+#: ../../DB/CurrencyManager.cs:260
+#, csharp-format
+msgid "更新货币数据失败 [{0}, {1}]: {2}"
 msgstr ""
 
 #: ../../Command/BankCommand.cs:270
 msgid "未检测到任何兑换循环"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:137
+#: ../../Services/CurrencyService.cs:133
 msgid "没有指定要扣除的货币"
 msgstr ""
 
@@ -400,9 +420,10 @@ msgstr ""
 
 #: ../../Services/CurrencyService.cs:15
 #: ../../Services/CurrencyService.cs:31
-#: ../../Services/CurrencyService.cs:106
-#: ../../Services/CurrencyService.cs:131
-#: ../../Services/CurrencyService.cs:171
+#: ../../Services/CurrencyService.cs:105
+#: ../../Services/CurrencyService.cs:127
+#: ../../Services/CurrencyService.cs:167
+#: ../../Services/CurrencyService.cs:198
 msgid "玩家名称不能为空"
 msgstr ""
 
@@ -457,20 +478,25 @@ msgstr ""
 msgid "货币数量: {0}{1}"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:79
+#: ../../Services/CurrencyService.cs:78
 msgid "转入玩家名称不能为空"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:74
+#: ../../Services/CurrencyService.cs:73
 msgid "转出玩家名称不能为空"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:96
+#: ../../Services/CurrencyService.cs:95
 #, csharp-format
 msgid "转账失败: {0}"
 msgstr ""
 
-#: ../../Services/CurrencyService.cs:192
+#: ../../DB/CurrencyManager.cs:166
+#, csharp-format
+msgid "重置货币数据失败: {0}"
+msgstr ""
+
+#: ../../Services/CurrencyService.cs:207
 msgid "金额必须大于0"
 msgstr ""
 
