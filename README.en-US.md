@@ -94,7 +94,7 @@
 | [CNPCShop](./src/CNPCShop/README.en-US.md) | 100.0% | Custom NPC shop |  |
 | [ConsoleSql](./src/ConsoleSql/README.en-US.md) | 100.0% | Execute SQL statements in the console |  |
 | [ConvertWorld](./src/ConvertWorld/README.en-US.md) | 100.0% | Convert world items by defeating monsters |  |
-| [CreateSpawn](./src/CreateSpawn/README.en-US.md) | 0.0% | Spawn point building generation | [LazyAPI](./src/LazyAPI/README.en-US.md) |
+| [CreateSpawn](./src/CreateSpawn/README.en-US.md) | 6.7% | Spawn point building generation | [LazyAPI](./src/LazyAPI/README.en-US.md) |
 | [CriticalHit](./src/CriticalHit/README.en-US.md) | 100.0% | Critical hit prompt |  |
 | [Crossplay](https://github.com/UnrealMultiple/Crossplay/blob/main/README.md) | 0.0% | Allows for cross-platform play |  |
 | [DamageRuleLoot](./src/DamageRuleLoot/README.en-US.md) | 100.0% | Determine the drop treasure bag based on the ratio of damage and transfer damage calculation |  |
@@ -110,14 +110,14 @@
 | [Dummy](./src/Dummy/README.en-US.md) | 100.0% | Dummy client |  |
 | [DumpTerrariaID](./src/DumpTerrariaID/README.en-US.md) | 100.0% | Dump Terraria IDs |  |
 | [DwTP](./src/DwTP/README.en-US.md) | 100.0% | Positioning Teleport |  |
-| [Economics.Core](./src/Economics.Core/README.en-US.md) | 90.5% | Economic plugin prerequisite |  |
+| [Economics.Core](./src/Economics.Core/README.en-US.md) | 17.5% | Economic plugin prerequisite |  |
 | [Economics.Deal](./src/Economics.Deal/README.en-US.md) | 83.9% | Trading plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) |
 | [Economics.NPC](./src/Economics.NPC/README.en-US.md) | 100.0% | Custom monster rewards | [Economics.Core](./src/Economics.Core/README.en-US.md) |
 | [Economics.Projectile](./src/Economics.Projectile/README.en-US.md) | 100.0% | Custom projectiles | [Economics.Core](./src/Economics.Core/README.en-US.md) [Economics.RPG](./src/Economics.RPG/README.en-US.md) |
 | [Economics.Regain](./src/Economics.Regain/README.en-US.md) | 100.0% | Item recycling | [Economics.Core](./src/Economics.Core/README.en-US.md) |
-| [Economics.RPG](./src/Economics.RPG/README.en-US.md) | 100.0% | RPG plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) |
-| [Economics.Shop](./src/Economics.Shop/README.en-US.md) | 100.0% | Shop plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) [Economics.RPG](./src/Economics.RPG/README.en-US.md) |
-| [Economics.Skill](./src/Economics.Skill/README.en-US.md) | 72.5% | Skill plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) [Economics.RPG](./src/Economics.RPG/README.en-US.md) |
+| [Economics.RPG](./src/Economics.RPG/README.en-US.md) | 93.5% | RPG plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) |
+| [Economics.Shop](./src/Economics.Shop/README.en-US.md) | 94.1% | Shop plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) [Economics.RPG](./src/Economics.RPG/README.en-US.md) |
+| [Economics.Skill](./src/Economics.Skill/README.en-US.md) | 71.0% | Skill plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) [Economics.RPG](./src/Economics.RPG/README.en-US.md) |
 | [Economics.Task](./src/Economics.Task/README.en-US.md) | 100.0% | Task plugin | [Economics.Core](./src/Economics.Core/README.en-US.md) [Economics.RPG](./src/Economics.RPG/README.en-US.md) |
 | [Economics.WeaponPlus](./src/Economics.WeaponPlus/README.en-US.md) | 100.0% | Weapon enhancement | [Economics.Core](./src/Economics.Core/README.en-US.md) |
 | [EndureBoost](./src/EndureBoost/README.en-US.md) | 100.0% | Grant specified buff when the player has a certain number of items |  |
