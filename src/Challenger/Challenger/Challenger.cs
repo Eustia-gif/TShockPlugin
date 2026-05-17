@@ -31,7 +31,7 @@ public class Challenger : TerrariaPlugin
     public override string Description => GetString("增强游戏难度，更好的游戏体验");
 
     public override string Name => System.Reflection.Assembly.GetExecutingAssembly().GetName().Name!;
-    public override Version Version => new (1, 1, 8);
+    public override Version Version => new(1, 2, 0);
 
     public Challenger(Main game)
         : base(game)
@@ -753,7 +753,7 @@ public class Challenger : TerrariaPlugin
         var Any = config.ChlorophyteArmorEffect;
 
         var armor = player.armor;
-        var flag = (armor[0].type == 1001 || armor[0].type == 1002 || armor[0].type == 1003) && armor[1].type == 1004 && armor[2].type == 1005;
+        var flag = (armor[0].type == 1001 || armor[0].type == 1002 || armor[0].type == 1003 || armor[0].type == 5524) && armor[1].type == 1004 && armor[2].type == 1005;
         if (flag && !Collect.cplayers[player.whoAmI].ChlorophyteArmorEffectLife)
         {
             player.statLifeMax += Any;
@@ -1344,6 +1344,7 @@ public class Challenger : TerrariaPlugin
             case 1003:
             case 1004:
             case 1005:
+            case 5524:
                 SendPlayerText(tsplayer, GetString("【叶绿套装】\n挑战模式奖励：释放不精确的叶绿水晶矢，丛林之\n力给你更高的生命上限"), new Color(103, 209, 0), Main.player[tsplayer.Index].Center + new Vector2(0f, -24f));
                 break;
             case 1316:
@@ -1777,13 +1778,21 @@ public class Challenger : TerrariaPlugin
             case 913:
             case 914:
             case 952:
-                this.TikiArmorEffect(null, args);
-                this.SpookyArmorEffect(args);
-                break;
+            case 1028:  // 蛛网鞭
+            case 1029:  // 魂笞
+            case 1030:  // 脉管
+            case 1031:  // 星坠
+            case 1032:  // 花儿的粗暴展示
+            case 1033:  // 电鳗
+            case 1034:  // 星座
+            case 1035:  // 支配之鞭
+            case 1104:  // 史莱姆鞭
             case 847:
             case 848:
             case 849:
             case 915:
+                this.TikiArmorEffect(null, args);
+                this.SpookyArmorEffect(args);
                 this.TikiArmorEffect(null, args, 1);
                 this.SpookyArmorEffect(args, 1);
                 break;
